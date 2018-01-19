@@ -12,9 +12,11 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-        'user' => [
+        /** yii2-user 插件 邮箱注册登录 */
+       /* 'user' => [
             'class' => 'dektrium\user\Module',
-        ],
+        ],*/
+
     ],
     'components' => [
         'request' => [
