@@ -17,6 +17,11 @@ return [
             'class' => 'dektrium\user\Module',
         ],*/
 
+        'Article' => [
+            'class' => 'backend\modules\Article\Module',
+        ],
+
+
     ],
     'components' => [
         'request' => [
