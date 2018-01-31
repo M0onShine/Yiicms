@@ -16,12 +16,9 @@ return [
        /* 'user' => [
             'class' => 'dektrium\user\Module',
         ],*/
-
         'Article' => [
             'class' => 'backend\modules\Article\Module',
         ],
-
-
     ],
     'components' => [
         'request' => [
@@ -57,5 +54,7 @@ return [
         ],
         */
     ],
+    //'layout' => '\adminlte\main',
+    'layout' => '\gentelella\main',
     'params' => $params,
 ];

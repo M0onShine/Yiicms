@@ -26,7 +26,8 @@
         "anerg2046/sns_auth": "^1.1",
         "dektrium/yii2-user": "0.9.*@dev",
         "dmstr/yii2-adminlte-asset": "^2.1",
-        "kartik-v/yii2-widget-select2": "*"
+        "kartik-v/yii2-widget-select2": "*",
+        "yiister/yii2-gentelella": "~1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
